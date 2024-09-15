@@ -25,3 +25,62 @@ body {
 	margin: 0 auto;
 	max-width: 1440px;
 }
+
+
+/* header start here */
+
+header {
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+header span {
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: -0.6px;
+  }
+
+	nav {
+		flex-basis: 36%;
+	}
+    
+	nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+    
+	.navmenu a {
+		color: #FFF;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+	header .contact {
+		display: flex;
+		padding: 12px 32px;
+		justify-content: center;
+		text-transform: capitalize;
+		align-items: center;
+		gap: 10px;
+		color: #2BB32A;
+		font-family: "M PLUS 1";
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 24px; 
+		border-radius: 64px;
+    border: 2px solid #2BB32A;
+		transition: all ease-in .3s;
+	}
+
+	header .contact:hover {
+		background-color: #2BB32A;
+		color: #fff;
+		transition: all ease-in .3s;
+	}
+
+	/* header end here */

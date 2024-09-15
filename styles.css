@@ -84,3 +84,128 @@ header span {
 	}
 
 	/* header end here */
+    	/* banner start here */
+	.banner {
+		display: flex;
+		align-items: baseline;
+		margin-top: 140px;
+	}
+
+	.banner .profileImgContainer {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.banner h1 	{
+		color: #FFF;
+		font-family: "M PLUS 1";
+		font-size: 56px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 64px; /* 114.286% */
+		letter-spacing: -1.4px;
+	}
+
+	.banner p {
+		width: 84%;
+		color: #ADB2B1;
+		font-family: "M PLUS 1";
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px; /* 133.333% */
+		margin: 31px 0;
+	}
+
+	.banner .leftcontent {
+		width: 604px;
+	}
+
+	.banner .leftcontent button {
+		display: flex;
+		padding: 14px 30px;
+		align-items: center;
+		gap: 16px;
+		background-color: #2BB32A;
+		border: 1px solid #2BB32A;
+		color: #FFF;
+		font-family: "M PLUS 1";
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		border-radius: 64px;
+		transition: all ease-in .3s;
+		cursor: pointer;
+		margin-bottom: 31px;
+	}
+
+	.banner .leftcontent button:hover {
+		background-color: transparent;
+		color: #2BB32A;
+		transition: all ease-in .3s;
+	}
+
+	.profileImgContainerWrapper {
+		width: 100%;
+    position: relative;
+	}
+
+	.profileImgContainerWrapper .count {
+		display: flex;
+		flex-direction: column;
+		width: 77%;
+    position: absolute;
+    right: 0;
+	}
+
+	.profileImgContainerWrapper .count .number {
+		color: #FFF;
+		font-family: "M PLUS 1";
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 24px; /* 150% */
+	}
+
+	.profileImgContainerWrapper .count .active {
+		color: #ADB2B1;
+		font-family: "M PLUS 1";
+		font-size: 12px;
+		line-height: 16px;
+		margin-top: 5px;
+	}
+
+	.banner .profileImgContainer {
+		position: relative;
+
+	}
+
+	.banner .profileImgContainer img {
+		position: absolute;
+	}
+
+	.banner .profileImgContainer .profile-2 {
+		left: 6%;
+	}
+
+	.banner .profileImgContainer .profile-3 {
+		left: 12%;
+	}
+
+
+	/* right content start here */
+	.rightcontent {
+		width: 400px;
+	}
+
+	.rightcontent .circle {
+		width: 492px;
+    height: 492px;
+    border-radius: 50%;
+    background: #2BB32A;
+    margin-left: 74%;
+	}
+
+		/* right content end here */
+	
+	/* banner end here */

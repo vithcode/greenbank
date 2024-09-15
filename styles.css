@@ -247,3 +247,15 @@ header span {
         }
     
         /* achievment section end here */
+
+		/* brands section starts here */
+		.brands  ul {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 198px;
+			column-gap: 20px;
+		}
+		/* brands section end here */
+
+

@@ -258,4 +258,89 @@ header span {
 		}
 		/* brands section end here */
 
+		
+	/* testmonial section start here */
+
+	.testimonials {
+		margin: 128px 0;
+	}
+	
+	.testimonials ul {
+		display: flex;
+		column-gap: 30px;
+	}
+
+	.testimonials li {
+		border-radius: 32px;
+		padding: 48px 24px;
+		background: rgba(39, 50, 47, 0.24);
+		backdrop-filter: blur(8px);
+		display: flex;
+		flex-direction: column;
+		row-gap: 32px;
+		flex-basis: 30%;
+	}
+
+	.testimonials li .quote {
+		width: 56px;
+		height: 56px;
+		border-radius: 56px;
+		background-color: #3D544D;
+		position: relative;
+	}
+
+	.quote img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+	.testimonials li p {
+		color: #FFF;
+		font-family: Poppins;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+	}
+
+	.testimonials li .profileTestimonial {
+		display: flex;
+		column-gap: 10px;
+
+	}
+
+	.profileTestimonial {
+		display: flex;
+		
+	}
+
+	.profileTestimonial .personalInfo {
+		display: flex;
+		flex-direction: column;
+		row-gap: 2px;
+	}
+
+	 .personalInfo .name {
+		color: #FFF;
+		font-family: "M PLUS 1";
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px; /* 150% */
+		letter-spacing: -0.32px;
+	 }
+
+	 .personalInfo .desg {
+		color: #ADB2B1;
+		font-family: "M PLUS 1";
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px; /* 166.667% */
+	 }
+
+		/* testmonial section end here */
+
 

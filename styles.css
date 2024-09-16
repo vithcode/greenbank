@@ -473,3 +473,117 @@ header span {
 		}
 
 		/* Easy way section ends here  */
+
+     /* Footer section starts here */
+
+		
+	.footerContainer .logo span {
+		color: #FFF;
+		font-size: 20px;
+		font-weight: 700;
+		letter-spacing: -0.6px;
+	}
+
+	.footerContainer .logoContainer p {
+		color: #ADB2B1;
+		font-family: "M PLUS 1";
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: -0.48px;
+		margin-top: 10px;
+	}
+
+	footer {
+		background: rgba(40, 52, 48, 0.24);
+    backdrop-filter: blur(8px);
+		padding: 72px 0 35px;
+	}
+
+	.footerContainer {
+		display: flex;
+		column-gap: 20px;
+	
+	}
+
+  .footerContainer .logoContainer {
+		flex-basis: 35%;
+	}	
+
+	.footerContainer .logoContainer p {
+		width: 74%;
+	}	
+
+.footerMenuContainer h4 {
+	color: #FFF;
+	font-family: "M PLUS 1";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px; /* 150% */
+	margin-bottom: 16px;
+}
+
+.footerMenuContainer a {
+	color: #ADB2B1;
+	font-family: "M PLUS 1";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; 
+}
+
+.footerMenuContainer a::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 1px;
+	background-color: #fff;
+	transition: all ease-in .3s;
+	margin-top: 2px;
+}
+
+.footerMenuContainer a:hover::after {
+	width: 100%;
+	transition: all ease-in .3s;
+}
+
+.footerMenuContainer {
+	display: flex;
+	flex-basis: 68%;
+	column-gap: 32px;
+	justify-content: space-between;
+}
+
+.footerMenuContainer ul {
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.lefttext {
+	color: #ADB2B1;
+	font-family: "M PLUS 1";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px; /* 166.667% */
+}
+
+.righttext {
+	color: #ADB2B1;
+	font-family: Poppins;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px; /* 166.667% */
+}
+
+/* Footer section ends here */

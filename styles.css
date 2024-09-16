@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
 	margin: 0;
@@ -84,6 +85,7 @@ header span {
 	}
 
 	/* header end here */
+
     	/* banner start here */
 	.banner {
 		display: flex;
@@ -258,7 +260,6 @@ header span {
 		}
 		/* brands section end here */
 
-		
 	/* testmonial section start here */
 
 	.testimonials {
@@ -342,5 +343,80 @@ header span {
 	 }
 
 		/* testmonial section end here */
+         
+		/* FAQ section starts here */
 
 
+		.faq {
+			margin-bottom: 128px;
+		}
+
+		.faq  h3 {
+			color: #FFF;
+			font-family: "M PLUS 1";
+			font-size: 40px;
+			font-weight: 700;
+			text-align: center;
+			margin-bottom: 72px;
+		}
+
+		.faqList {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.faqList li {
+			padding: 20px 0;
+			cursor: pointer;
+		}
+
+		.faqList li:not(:last-child) {
+			border-bottom: 1.5px solid #ADB2B1;
+		}
+
+		.faqList li p {
+			transition: height ease-in .3s;
+		}
+
+		.faqList li:not(:first-child) p {
+			height: 0;
+			opacity: 0;
+		}
+
+		.faqList li:first-child .plus {
+			display: none;
+		}
+
+		.faqList li:not(:first-child) .minus {
+			display: none;
+		}
+
+		.faqList li h4 {
+			color: #FFF;
+			font-family: Poppins;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 32px; /* 133.333% */
+		}
+
+		.faqList li p {
+			color: #ADB2B1;
+			font-family: Poppins;
+			font-size: 16px;
+			line-height: 24px; 
+		}
+
+		.faqQue {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.openClose {
+			width: 16px;
+			height: 16px;		
+			color: #fff;
+			cursor: pointer;
+		}
+
+		/* FAQ section ends here*/

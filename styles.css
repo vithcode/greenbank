@@ -87,11 +87,12 @@ header span {
 	/* header end here */
 
     	/* banner start here */
-	.banner {
-		display: flex;
-		align-items: baseline;
-		margin-top: 140px;
-	}
+		.banner {
+			display: flex;
+			align-items: flex-start;
+			margin-top: 140px;
+			position: relative;
+		}
 
 	.banner .profileImgContainer {
 		display: flex;
@@ -206,6 +207,8 @@ header span {
     border-radius: 50%;
     background: #2BB32A;
     margin-left: 74%;
+	text-indent: -99999px;
+
 	}
 
 		/* right content end here */

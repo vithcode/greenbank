@@ -17,7 +17,7 @@ li {
 
 body {
   font-family: "M PLUS 1";
-	background-color: #1A1E1C;
+	background-color: #001800;
 	overflow-x: hidden;
 }
 
@@ -60,6 +60,21 @@ header span {
 		line-height: normal;
 	}
 
+	.navmenu a::after {
+		content: '';
+		display: block;
+		width: 0;
+		height: 1px;
+		background-color: #fff;
+		transition: all ease-in .3s;
+		margin-top: 2px;
+	}
+
+	.navmenu a:hover::after {
+		width: 100%;
+		transition: all ease-in .3s;
+	}
+
 	header .contact {
 		display: flex;
 		padding: 12px 32px;
@@ -89,6 +104,7 @@ header span {
     	/* banner start here */
 		.banner {
 			display: flex;
+			gap: 150px;
 			align-items: flex-start;
 			margin-top: 140px;
 			position: relative;
@@ -428,6 +444,7 @@ header span {
 		
 		.easyWay {
 			display: flex;
+			gap: 170px;
 			align-items: center;
 			margin-bottom: 100px;
 		}
